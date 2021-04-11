@@ -6,8 +6,8 @@
 
 # 위코드 21기
  
-자기소개 페이지
- https://changhyoshon.github.io/changhyoshon/
+
+
 
 
 
