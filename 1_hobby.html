@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+<title>
+    For fun!
+</title>
+<style>
+/*<img src = "soccer.jpg" width = "100%">*/
+/*<link rel="stylesheet" type="text/css" href="reset.css">*/
+/*https://unsplash.com/photos/Z0KjmjxUsKs*/
+.img{
+    position: relative;
+    background-image:url(https://jaguar.ssl.cdn.sdlmedia.com/636353687510047376OV.jpg?v=24);
+    width:"100%";                                                               
+    height: 100vh;
+    background-size: cover;
+}
+
+.img-cover{
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.7);                                                                 
+     z-index:1;
+  }
+
+  .img .content{
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);                                                                   
+     font-size:1rem;
+     color: white;
+     z-index: 2;
+     text-align: center;
+  }
+  #header{
+    font-size: 40px;
+    color:tomato;
+    border-bottom: tomato;
+    
+    grid-template-columns: auto;
+  }
+  .header2{
+      font-size: 20px;
+      color:red;
+    
+  }
+  .button1{
+            margin: 1px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color:white;
+    color: rgb(187, 30, 30);
+    border: 100%;
+    outline: 0;
+    border: 30;
+    font-family: 'Nanum Gothic Coding';  
+        }
+</style>
+</head>
+<body>
+  
+<div class="img">
+    <div class="content">
+        <ul>
+            <h1 id="header">취미</h1>
+           <b> <li class="header2">1.축구</li></b>
+            <p>저는 축구를 중학생때부터 시작을해서 
+             <br>꾸준히 하고있습니다. 예전에 학교대항전이 있을때는
+                제가 주로 나갔습니다.
+            </p>
+            <b><li class="header2">2.야구</li></b>
+            <p>야구는 제가 대학다니면서 야구단에 가입을 했는데
+                <br>취미로 가끔 하곤했습니다
+            </p>
+            <b><li class="header2">3.탁구</li></b>
+            <p>칙칙한 군시절, 전우들과 탁구를 치면서<br>
+                무료한 시간을 보내곤했었는데요, 전역하며 탁구칠 기회는
+               <br> 많이 없었지만 군시절 탁구는 제친구같은 존재였습니다
+            </p>
+            
+        </ul>
+        <button class="button1">
+            <a href="index.html">
+               <b> 돌아가기 </b>
+            </a>
+        </button>
+    </div>
+    
+<div class="img-cover"></div>
+
+
+
+</div>
+</body>

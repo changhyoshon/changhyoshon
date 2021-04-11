@@ -1,130 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-<link rel="stylesheet" href="style.css">
+
+<meta charset="utf-8">
+
+<style>
+    a{
+        color:black;
+        text-decoration: none;
+    }
+    /*h1 {
+        font-size: 60px;
+        text-align:center;
+    }*/
+    .saw{
+        color:yellow;
+    }
+    /*#active{
+        color:red;
+    }*/
+    #backcol{
+        background-color: blue;
+        font-size: 40px;
+        margin:0;
+        border:10px solid red;
+    }
+    #name{
+        color:violet;
+    }
+</style>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>손창효 | 백엔드개발희망</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css">
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/main.css">
-    
-    <script
-        src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.extensions.min.js"
-    crossorigin="anonymous"></script>
-    <script src="./js/fullpageOption.js"></script>
-    <script src="./js/animate.js"></script>
-    <script src="./js/undescore.js"></script>
-    <script async src="./js/modal.js"></script>
+    <title>Who am I?</title>
 </head>
+<img src = "coding.jpg" width="100%" height = "300px">
 <body>
-    <div id="wrap">
-        <div id="header-area">
-            <header class="header">
-                <nav class="nav">
-                    <ul id="menu">
-                        <li data-menuanchor="Introduce" class="active"><a href="#Introduce"><i class="fas fa-home"></i> Home</a></li>
-                        <li data-menuanchor="secondPage"><a href="#secondPage"><i class="far fa-user-circle"></i> Introduce</a></li>
-                        <li data-menuanchor="thirdPage"><a href="#thirdPage"><i class="fas fa-code"></i> Portfolio</a></li>
-                        <li data-menuanchor="fourPage"><a href="#fourPage">Menu4</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
-        <div id="contents-area">
-            <div id="fullpage">
-                <div class="section" data-anchor="slide1">
-                    <div class="profile-circle js-circle"></div>
-                    <div class="intro-box js-intro-box">
-                        <div class="intro-txt">
-                            
-                            <p class="simple-introduce">
-                                ssssssssss위코드 21기 손창효입니다<br/>
-                                하루빨리 실력을 쌓고싶네요<br/>
-                                21기 과정중 많은 발전 기대해봅니다..!<br/>
-                            </p>
-                            <ul>
-                                <li class="email">
-                                    <i class="far fa-envelope"></i>
-                                    <a href="mailto:ckdgy123@gmail.com" target="_blank">ckdgy123@gmail.com</a>
-                                </li>
-                                <li class="git">
-                                    <i class="fab fa-github"></i> 
-                                    <a href="https://github.com/changhyoshon" target="_blank">https://github.com/changhyoshon</a>
-                                </li>
-                                <li class="blog">
-                                    <i class="far fa-bookmark"></i>
-                                    <a href="https://velog.io/@ckdgy123/about" target="_blank">https://velog.io/@ckdgy123/about</a>
-                                </li>
-                                
-                                
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="section section2" data-anchor="slide2"></div>
-                    <div class="slide">
-                        <div class="info">
-                            <div class="icon-area">
-                                <i class="fas fa-user-graduate"></i>
-                                <p>Education</p>
-                            </div>
-                            <div class="text-box">
-                                
-                                <div class="list">
-                                    <h3>매사추세츠대학교 <span>앰허스트</span></h3>
-                                    <table>
-                                        <tr>
-                                            <td width="17%">기&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;간</td>
-                                            <td>17.09~</td>
-                                        </tr>
-                                        <tr>
-                                            <td width="17%">졸업여부</td>
-                                            <td>졸업예정 22.08</td>
-                                        </tr>
-                                        <tr>
-                                            <td>학&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;과</td>
-                                            <td>컴퓨터과학&&수학</td>
-                                        </tr>
-                                        <tr>
-                                            <td>학&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;점</td>
-                                            <td>2.5/4.0</td>
-                                        </tr>
-                                        <tr>
-                                            #특이사항: 경영학에서 전과(18.09)
-                                            
-                                        </tr>
-                                        
-                                    </table>
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="slide">
-                        <div class="text-box-slide">
-                            <div class="question">Why</div>
-                            <h3>왜 백엔드인가</h3>
-                            <p>
-                                수학을 사용하는 데이터과학분야로 나가기위해서
-                                백엔드분야도 잘알아야한다고생각합니다<br/>
-                                
-                            </p>
-                            <h3>위코드 지원계기</h3>
-                            <p>
-                                선행학습을 기본으로하는 학우들에 비해 경영학에서 처음 넘어왔기에
-                                <br/>
-                                <b>매우</b> 부족한점이 많다고 느껴 이번에 부트캠프를 통해 발전하길<br/>
-                                기대하며 지원하게 됬습니다    
-                            </p>
-                        </div>
-                    </div>
-                    
+    <div id="backcol">
+    <h1><a href id="name">I am Changhyo</a></h1>
+    <ul class = "saw">
+        <li><a href="1_hobby.html"
+            class="saw">1.What I like?</a></li>
+        <li><a href="2.html"
+            class ="saw" id="active">2.Why am I here?</a></li>
+        
+    </ul>
+
+    </div>
 </body>
-</html>
