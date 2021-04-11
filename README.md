@@ -1,3 +1,5 @@
 # cshon
-Hello! I am Changhyo. I currently study in Computer Science.
+
+백엔드 개발자
+
 
